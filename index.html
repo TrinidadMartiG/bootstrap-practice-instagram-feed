@@ -17,7 +17,7 @@
        <div class="container-fluid"> 
          <a class="navbar-brand" href="#">
            <i class="fa-brands fa-instagram d-inline-block align-text-top" style="font-size: 30px;"></i>
-           Instagram
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png" class="my-6" height="35" alt="">
          </a>
        </div>
 
@@ -71,95 +71,150 @@
 <!-- navbutton JS -->
 <div class="container-fluid m-3">
   <div class="d-flex justify-content-center">
-    <ul class="nav nav-pills" id="pills-tab" role="tablist">
-    <li class="btn-group" role="presentation">
-      <button class="btn btn-secondary" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-grid" type="button" role="tab" aria-controls="pills-grid" aria-selected="true">
+
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link nav-secondary btn-secondary"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">
         <i class="fa-solid fa-grip bg-white text-secondary"></i>
+
       </button>
     </li>
-    <li class="btn-group" role="presentation">
-      <button class=" btn btn-secondary" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-col" type="button" role="tab" aria-controls="pills-col" aria-selected="false">
-        <i class="fa-solid fa-square"></i>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+        <i class="fa-solid fa-square text-secondary"></i>
+
       </button>
     </li>
-    </ul>
-  </div>
+  </ul>
 </div>
-<!-- grid view -->
-    <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-grid" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-      <div class="card-group bg-light">
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300" 
-          class="card-img mx-2 my-2" alt="...">
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      
+      <div class="container-fluid">
+        <div class="card-group bg-light">
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=1" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=2/" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=3//" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
         </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300/" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300//" 
-          class="card-img mx-2 my-2" alt="...">
+
+      </div>
+
+  <div class="container-fluid">
+    <div class="card-group bg-light">
+      <div class="card border-0">
+        <img src="https://picsum.photos/500?random=4" 
+        class="card-img mx-2 my-2" alt="...">
+      </div>
+      <div class="card border-0">
+        <img src="https://picsum.photos/500?random=5/" 
+        class="card-img mx-2 my-2" alt="...">
+      </div>
+      <div class="card border-0">
+        <img src="https://picsum.photos/500?random=6//" 
+        class="card-img mx-2 my-2" alt="...">
+      </div>
+    </div>
+  </div>
+
+      <div class="container-fluid">
+        <div class="card-group bg-light">
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=7" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=8/" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/500?random=9//" 
+            class="card-img mx-2 my-2" alt="...">
+          </div>
         </div>
       </div>
-      <div class="card-group bg-light">
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300/" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300//" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-      </div>
-      <div class="card-group bg-light">
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300/" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-        <div class="card border-0">
-          <img src="https://picsum.photos/300/300//" 
-          class="card-img mx-2 my-2" alt="...">
-        </div>
-      </div>
+
     </div>
 
-    <!-- column -->
-    <div class="tab-pane fade active show bg-secondary bg-gradient" id="pills-col" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-      <div class="container bg-light">
-        <div class="row ">
-          <div class="card border-0">
-            <img src="https://picsum.photos/300/300" 
-            class="card-img mx-2 my-2" alt="...">
-            <div class="card-body">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-comment"></i>
-                    <i class="fa-regular fa-paper-plane"></i>
-                    <i class="fa-regular fa-bookmark"></i>
-                    <p>Liked by <strong>4GeeksAcademy</strong> and <strong>many others</strong></p><br>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quas in, dolore ea, corrupti sequi quia doloremque dolor sint corporis deserunt odio omnis nobis illo eaque error voluptates reiciendis mollitia.
-                </div>
-            </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="tab-pane fade active show bg-light" id="pills-col" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="container bg-light">
+          <div class="row d-flex justify-content-center">
+
+
+            <div class=" col-7 card-sm card border-0 bg-white my-3">
+              <img src="https://picsum.photos/500?random=1" 
+              class="card-img img-fluid my-2" alt="...">
+              <div class="card-body">
+                      <i class="fa-regular fa-heart fs-4"></i>
+                      <i class="fa-regular fa-comment fs-4"></i>
+                      <i class="fa-regular fa-paper-plane fs-4"></i>
+                      <span class="d-flex float-end fs-4">
+                        <i class="fa-regular fa-bookmark fs-4"></i>
+                      </span>
+                      <p class="">Liked by <strong>4GeeksAcademy</strong> and <strong>many others</strong></p><br>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid 
+                        eos est quisquam in explicabo nostrum atque nobis. Fugiat repudiandae 
+                        exercitationem aperiam corporis alias officia ipsum cum ea nesciunt aliquam?</p>
+                  </div>
+              </div>
+            
+
+            <div class=" col-7 card-sm card border-0 bg-white my-3">
+              <img src="https://picsum.photos/500?random=2" 
+              class="card-img img-fluid my-2" alt="...">
+              <div class="card-body">
+                      <i class="fa-regular fa-heart fs-4"></i>
+                      <i class="fa-regular fa-comment fs-4"></i>
+                      <i class="fa-regular fa-paper-plane fs-4"></i>
+                      <span class="d-flex float-end fs-4">
+                        <i class="fa-regular fa-bookmark fs-4"></i>
+                      </span>
+                      <p class="">Liked by <strong>4GeeksAcademy</strong> and <strong>many others</strong></p><br>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid 
+                        eos est quisquam in explicabo nostrum atque nobis. Fugiat repudiandae 
+                        exercitationem aperiam corporis alias officia ipsum cum ea nesciunt aliquam?</p>
+                  </div>
+              </div>
+           
+            
+            <div class=" col-7 card-sm card border-0 bg-white my-3">
+              <img src="https://picsum.photos/500?random=3" 
+              class="card-img img-fluid my-2" alt="...">
+              <div class="card-body">
+                      <i class="fa-regular fa-heart fs-4"></i>
+                      <i class="fa-regular fa-comment fs-4"></i>
+                      <i class="fa-regular fa-paper-plane fs-4"></i>
+                      <span class="d-flex float-end fs-4">
+                        <i class="fa-regular fa-bookmark fs-4"></i>
+                      </span>
+                      <p class="">Liked by <strong>4GeeksAcademy</strong> and <strong>many others</strong></p><br>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid 
+                        eos est quisquam in explicabo nostrum atque nobis. Fugiat repudiandae 
+                        exercitationem aperiam corporis alias officia ipsum cum ea nesciunt aliquam?</p>
+                  </div>
+              </div>
+            </div>  
           </div>
-          <div class="card border-0">
-            <img src="https://picsum.photos/300/300/" 
-            class="card-img mx-2 my-2" alt="...">
+
+
           </div>
-          <div class="card border-0">
-            <img src="https://picsum.photos/300/300//" 
-            class="card-img mx-2 my-2" alt="...">
-          </div>    
         </div>
-      </div>
+      
     </div>
+  </div>
+  
+</div>
+    
 </div>
 
 
